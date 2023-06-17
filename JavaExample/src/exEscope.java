@@ -1,6 +1,5 @@
 
-public class condicionalesptdos {
-
+public class exEscope {
 	public static void main(String[] args) {
 
 		int edad = 18;
@@ -14,5 +13,4 @@ public class condicionalesptdos {
 		}
 
 	}
-
 }
