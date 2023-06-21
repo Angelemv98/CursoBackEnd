@@ -1,18 +1,18 @@
 
 public class testPrimerSeccion {
 	public static void main(String[] args) {
-		cuenta primerCuenta = new cuenta();
-		primerCuenta.saldo = 100;
-		System.out.println(primerCuenta.saldo);
+		cuenta primerCuenta = new cuenta(23123123);
+		primerCuenta.deposito(100);
+		System.out.println(primerCuenta.getSaldo());
 
-		primerCuenta.saldo += 200;
-		System.out.println(primerCuenta.saldo);
+		primerCuenta.deposito(200);;
+		System.out.println(primerCuenta.getSaldo());
 
 		cuenta segundaCuenta = primerCuenta;
-		segundaCuenta.saldo = 50;
+		segundaCuenta.deposito(50);;
 
-		System.out.println("primera cuenta tiene " + primerCuenta.saldo);
-		System.out.println("segunda cuenta tiene " + segundaCuenta.saldo);
+		System.out.println("primera cuenta tiene " + primerCuenta.getSaldo());
+		System.out.println("segunda cuenta tiene " + segundaCuenta.getSaldo());
 
 	}
 
