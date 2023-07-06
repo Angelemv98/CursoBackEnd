@@ -1,3 +1,6 @@
+package com.bytebank.test;
+import com.bytebank.modelo.*;
+
 
 public class testControlBonos {
 public static void main(String[] args) {

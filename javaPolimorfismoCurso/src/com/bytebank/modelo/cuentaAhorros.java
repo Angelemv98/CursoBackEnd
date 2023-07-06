@@ -1,3 +1,5 @@
+package com.bytebank.modelo;
+
 
 public class cuentaAhorros extends cuenta {
 	 public cuentaAhorros(int agencia, int numero) {

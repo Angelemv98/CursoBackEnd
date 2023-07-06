@@ -1,3 +1,5 @@
+package com.bytebank.modelo;
+
 
 public class controlBonos {
 	private double sumaBono;

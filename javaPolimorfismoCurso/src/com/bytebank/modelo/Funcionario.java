@@ -1,3 +1,5 @@
+package com.bytebank.modelo;
+
 
 public abstract class Funcionario {
 

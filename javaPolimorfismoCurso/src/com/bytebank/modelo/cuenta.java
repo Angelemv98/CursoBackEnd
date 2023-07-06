@@ -1,3 +1,5 @@
+package com.bytebank.modelo;
+
 public abstract class cuenta {
 	protected double saldo = 0;
 	private int agencia = 0;

@@ -1,3 +1,5 @@
+package com.bytebank.test;
+import com.bytebank.modelo.*;
 
 public class testSistemaInterno {
 public static void main(String[] args) {

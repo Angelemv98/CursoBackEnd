@@ -1,3 +1,7 @@
+package com.bytebank.modelo;
+
+
+
 public interface Autenticable{
 
 	

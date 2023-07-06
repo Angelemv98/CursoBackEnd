@@ -1,3 +1,5 @@
+package com.bytebank.modelo;
+
 public class cliente implements Autenticable {
 	private String nombre = "";
 	private String documento = "";
